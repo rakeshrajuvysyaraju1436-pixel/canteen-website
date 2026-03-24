@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Canteen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>🍽️ College Canteen</h1>
+
+<h2>Menu</h2>
+<ul>
+    <li>1 - Tea - ₹10</li>
+    <li>2 - Coffee - ₹15</li>
+    <li>3 - Samosa - ₹20</li>
+    <li>4 - Veg Biryani - ₹80</li>
+</ul>
+
+<h2>Order</h2>
+<form onsubmit="placeOrder(event)">
+    <input type="text" id="name" placeholder="Your Name" required><br><br>
+
+    <select id="item">
+        <option>1 - Tea</option>
+        <option>2 - Coffee</option>
+        <option>3 - Samosa</option>
+        <option>4 - Veg Biryani</option>
+    </select><br><br>
+
+    <button type="submit">Order</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
